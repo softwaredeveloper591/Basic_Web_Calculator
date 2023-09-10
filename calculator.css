@@ -11,10 +11,20 @@
     color: #fff;
     background-color: black;
     text-align: right;
-    font-size: 64px;
+    font-size: 50px;
+    width: 100%;
+    border: 1px solid black;
+    padding-right: 20px;
+}
+
+.second-screen{
+    color: #fff;
+    background-color: black;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 25px;
     width: 100%;
     border: none;
-    padding-right: 20px;
 }
 
 .calculator{
@@ -38,11 +48,17 @@
 
 }
 
-.buttonsForInput button:hover{
+
+
+ button:hover{
     background-color: #eaeaea;
 }
 
-.buttonsForInput button{
+.operator{
+    color: rgba(7, 165, 227, 0.792);
+}
+
+ button{
 
     background-color: #fff;
     border: gray solid 1px;
@@ -51,10 +67,22 @@
     border-radius: 3px;
     font-size: 2.5rem;
 }
+.clear{
+    background-color: darkslategrey !important;
+    color: white;
+   }
+.clear:hover{
+    background-color: rgb(5, 121, 121) !important;
+}
 
-.buttonsForInput .equalSign{
+ .equalSign{
     grid-row-start: 2;
     grid-row-end: 6;
     grid-column-start: 4;
     height: 100%;
+    background-color: #2e86c0;
+    color: #fff;
+}
+.equalSign:hover{
+    background-color: #4e9ed4;
 }
